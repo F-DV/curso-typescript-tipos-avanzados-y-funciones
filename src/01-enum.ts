@@ -1,10 +1,10 @@
-enum ROLES {              //Se crea Enum
+export enum ROLES {              //Se crea Enum
   ADMIN = 'admin',
   SELLER = 'seller',
   CUSTOMER = 'customer',
 }
 
-type User = {
+export type User = {
   username: string;
   role: ROLES;          //Creamos fel tipo enum
 }
