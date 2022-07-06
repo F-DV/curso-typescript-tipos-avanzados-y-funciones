@@ -14,3 +14,5 @@ export interface Product extends BaseModel { //La interfaz permite extender
   isNew: boolean;
   tags: string[];
 }
+
+
